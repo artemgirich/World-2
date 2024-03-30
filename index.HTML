@@ -9,31 +9,40 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <img src="face.jpg">
-    <h1>Гирич Артем</h1>
-    <p>Я учусь в <strong><em>классе 6д</em> школы 1454
-    </strong>.Я хожу на <strong><em>шахматы</em></strong></p>
-    любимая книга <a target=blank href="https://ранобэ.рф/puteshestvie-k-bessmertiyu">Путешествие к бессмертию
+   <div class="all"> <img src="face.jpg">
+    <div class="header"><h1>Гирич Артем</h1></div>
+    <div class="gard"><p>Я учусь в <strong><em>классе 6д</em> школы 1454. <br>
+    </strong>Я хожу на <strong><em>шахматы</em></strong></p>
+    любимая книга: <a target=blank href="https://ранобэ.рф/puteshestvie-k-bessmertiyu">Путешествие к бессмертию
         (A Record of a Mortal's Journey to Immortality)</a>
-        <p>мои хобби:</p>
-        <ul> 
+    </div>
+      <div class="gard">
+         <h2>Мои хобби:</h2>
+        <ul class="list"> 
         <li>шахматы</li>
-        <li>видиоигры</li>
+        <li>видеоигры</li>
         </ul>
-        <p>оценки</p>
-        <table>
+        <br>
+        </div>
+        <div class="gard">
+        <h2>Oценки</h2>
+        <table class="font">
         <thead>
-            <th>предмет </th><th>оценка</th>
+            <th>предмет </th><th >оценка</th>
 
         </thead>
         <tbody>
-            <tr><td>математика</td><td>5</td></tr></tbody>
-            <tr><td>русc .яз.</td><td>4</td></tr></tbody>
-            <tr><td>литература</td><td>4</td></tr></tbody>
+            <tr><td>математика</td><td class="mark">5</td></tr></tbody>
+            <tr><td>русc .яз.</td><td class="mark">4</td></tr></tbody>
+            <tr><td>литература</td><td class="mark">4</td></tr></tbody>
         </table>
+        <br>
+        </div>
+        <div class="gard">
         <h1>связаться со мной</h1>
+        
         <form action="/">
-        <div>
+            <div>
             <label for="text">имя</label>
             <input type="text" placeholder="введите имя" id="text"/>
             
@@ -44,12 +53,15 @@
         </div>
         <div>
             <label for="massage">сообщение </label>
-          <textarea id="massage" placeholder="ваше сообщение"></textarea>
+          <br><textarea id="massage" placeholder="ваше сообщение"></textarea>
         </div>
         <div>
             <label for="button"></label>
             <input type="submit" id="button" value="отправить" />
         </div>
         </form>
+        <br>
+   </div>
+   </div>
 </body>
 </html>
